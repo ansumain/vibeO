@@ -42,7 +42,6 @@ const deleteEverything = async () => {
             }
         }
 
-        // Delete all data from MongoDB
         await User.deleteMany({});
         console.log('Deleted all users');
 
